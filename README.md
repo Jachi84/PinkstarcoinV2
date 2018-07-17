@@ -1,5 +1,5 @@
 
-### How To Compile
+### How To Compile this shitcoin
 
 #### Ubuntu 16.04
 
@@ -26,8 +26,8 @@
 
 ##### Building
 
-- `git clone https://github.com/Jachi84/PinkstarcoinV2.git`
-- `cd PinkstarcoinV2`
+- `git clone https://github.com/Jachi84/pinkdicks.git`
+- `cd pinkdicks`
 - `rm -rf build; mkdir -p build/release; cd build/release`
 - `cmake ..` or `cmake -DBOOST_ROOT=<path_to_boost_install> ..` when building
   from a specific boost install. If you used brew to install boost, your path is most likely `/usr/local/include/boost.`
@@ -35,7 +35,7 @@
 
 The binaries will be in `./src` after compilation is complete.
 
-Run `./src/PinkstarcoinV2d` to connect to the network and let it sync (it may take a while).
+Run `./src/pinkdicksd` to connect to the network and let it sync (it may take a while).
 
 #### Windows 10
 
@@ -51,11 +51,11 @@ Run `./src/PinkstarcoinV2d` to connect to the network and let it sync (it may ta
 - `mkdir build`
 - `cd build`
 - Set the PATH variable for cmake: ie. `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
-- `cmake.exe -DBOOST_ROOT=C:\boost_1_64_0 -DBOOST_LIBRARYDIR=C:\boost_1_64_0\libs -G "Visual Studio 15 Win64" C:\...\PinkstarcoinV2
-- `Open PinkstarcoinV2.sln in "Visual Studio" and compile the binaries
+- `cmake.exe -DBOOST_ROOT=C:\boost_1_64_0 -DBOOST_LIBRARYDIR=C:\boost_1_64_0\libs -G "Visual Studio 15 Win64" C:\...\pinkdicks
+- `Open pinkdicks.sln in "Visual Studio" and compile the binaries
 - If all went well, it will complete successfully, and you will find all your binaries in the '..\build\src\Release' directory.
 - Additionally, a `.sln` file will have been created in the `build` directory. If you wish to open the project in Visual Studio with this, you can.
 
 #### Thanks
-Cryptonote Developers, Bytecoin Developers, Monero Developers, TurtleCoin Developers, Forknote Project, PinkstarcoinV2 Developers
-"# PinkstarcoinV2" 
+Cryptonote Developers, Bytecoin Developers, Monero Developers, TurtleCoin Developers, Forknote Project, pinkdicks Developers
+"# pinkdicks" 
